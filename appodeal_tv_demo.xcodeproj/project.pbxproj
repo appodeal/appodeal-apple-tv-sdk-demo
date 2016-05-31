@@ -9,9 +9,34 @@
 /* Begin PBXBuildFile section */
 		B9277D441CFD8615005464A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277D431CFD8615005464A1 /* main.m */; };
 		B9277D471CFD8615005464A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277D461CFD8615005464A1 /* AppDelegate.m */; };
-		B9277D4A1CFD8615005464A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277D491CFD8615005464A1 /* ViewController.m */; };
 		B9277D4D1CFD8615005464A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9277D4B1CFD8615005464A1 /* Main.storyboard */; };
 		B9277D4F1CFD8615005464A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9277D4E1CFD8615005464A1 /* Assets.xcassets */; };
+		B9277D611CFD8683005464A1 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D561CFD8683005464A1 /* Appodeal.framework */; };
+		B9277D621CFD8683005464A1 /* appodeal_adbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D581CFD8683005464A1 /* appodeal_adbadge.png */; };
+		B9277D631CFD8683005464A1 /* appodeal_adbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D591CFD8683005464A1 /* appodeal_adbadge@2x.png */; };
+		B9277D641CFD8683005464A1 /* appodeal_adbadge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D5A1CFD8683005464A1 /* appodeal_adbadge@3x.png */; };
+		B9277D651CFD8683005464A1 /* appodeal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D5B1CFD8683005464A1 /* appodeal_close.png */; };
+		B9277D661CFD8683005464A1 /* appodeal_daa_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D5C1CFD8683005464A1 /* appodeal_daa_icon.png */; };
+		B9277D671CFD8683005464A1 /* appodeal_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D5D1CFD8683005464A1 /* appodeal_mute_off.png */; };
+		B9277D681CFD8683005464A1 /* appodeal_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D5E1CFD8683005464A1 /* appodeal_mute_on.png */; };
+		B9277D691CFD8683005464A1 /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D5F1CFD8683005464A1 /* appodeal_pattern.png */; };
+		B9277D6A1CFD8683005464A1 /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9277D601CFD8683005464A1 /* appodeal_pattern@2x.png */; };
+		B9277D6D1CFD8892005464A1 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D6B1CFD8892005464A1 /* libsqlite3.0.tbd */; };
+		B9277D6E1CFD8892005464A1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D6C1CFD8892005464A1 /* libsqlite3.tbd */; };
+		B9277D701CFD889C005464A1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D6F1CFD889C005464A1 /* libz.tbd */; };
+		B9277D721CFD88A7005464A1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D711CFD88A7005464A1 /* libc++.tbd */; };
+		B9277D741CFD88AE005464A1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D731CFD88AE005464A1 /* CoreMedia.framework */; };
+		B9277D761CFD88B5005464A1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D751CFD88B5005464A1 /* AudioToolbox.framework */; };
+		B9277D781CFD88BF005464A1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D771CFD88BF005464A1 /* CoreText.framework */; };
+		B9277D7A1CFD88C7005464A1 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D791CFD88C7005464A1 /* JavaScriptCore.framework */; };
+		B9277D7C1CFD88D0005464A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D7B1CFD88D0005464A1 /* UIKit.framework */; };
+		B9277D7E1CFD88D7005464A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D7D1CFD88D7005464A1 /* SystemConfiguration.framework */; };
+		B9277D801CFD88F4005464A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D7F1CFD88F4005464A1 /* StoreKit.framework */; };
+		B9277D821CFD88FA005464A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D811CFD88FA005464A1 /* CoreGraphics.framework */; };
+		B9277D841CFD8904005464A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D831CFD8904005464A1 /* AVFoundation.framework */; };
+		B9277D861CFD8909005464A1 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9277D851CFD8909005464A1 /* AdSupport.framework */; };
+		B94FD9521CFDAD9B00FAD594 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94FD9511CFDAD9B00FAD594 /* MainViewController.m */; };
+		B94FD9571CFDADC800FAD594 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94FD9561CFDADC800FAD594 /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +44,37 @@
 		B9277D431CFD8615005464A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9277D451CFD8615005464A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9277D461CFD8615005464A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B9277D481CFD8615005464A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B9277D491CFD8615005464A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B9277D4C1CFD8615005464A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9277D4E1CFD8615005464A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9277D501CFD8615005464A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9277D561CFD8683005464A1 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		B9277D581CFD8683005464A1 /* appodeal_adbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_adbadge.png; sourceTree = "<group>"; };
+		B9277D591CFD8683005464A1 /* appodeal_adbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@2x.png"; sourceTree = "<group>"; };
+		B9277D5A1CFD8683005464A1 /* appodeal_adbadge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@3x.png"; sourceTree = "<group>"; };
+		B9277D5B1CFD8683005464A1 /* appodeal_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_close.png; sourceTree = "<group>"; };
+		B9277D5C1CFD8683005464A1 /* appodeal_daa_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_daa_icon.png; sourceTree = "<group>"; };
+		B9277D5D1CFD8683005464A1 /* appodeal_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_mute_off.png; sourceTree = "<group>"; };
+		B9277D5E1CFD8683005464A1 /* appodeal_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_mute_on.png; sourceTree = "<group>"; };
+		B9277D5F1CFD8683005464A1 /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_pattern.png; sourceTree = "<group>"; };
+		B9277D601CFD8683005464A1 /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_pattern@2x.png"; sourceTree = "<group>"; };
+		B9277D6B1CFD8892005464A1 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B9277D6C1CFD8892005464A1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B9277D6F1CFD889C005464A1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B9277D711CFD88A7005464A1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B9277D731CFD88AE005464A1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B9277D751CFD88B5005464A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B9277D771CFD88BF005464A1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B9277D791CFD88C7005464A1 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B9277D7B1CFD88D0005464A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9277D7D1CFD88D7005464A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B9277D7F1CFD88F4005464A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B9277D811CFD88FA005464A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9277D831CFD8904005464A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9277D851CFD8909005464A1 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B94FD9501CFDAD9B00FAD594 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		B94FD9511CFDAD9B00FAD594 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		B94FD9551CFDADC800FAD594 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = ViewControllers/MainView.h; sourceTree = "<group>"; };
+		B94FD9561CFDADC800FAD594 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = ViewControllers/MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +82,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9277D861CFD8909005464A1 /* AdSupport.framework in Frameworks */,
+				B9277D841CFD8904005464A1 /* AVFoundation.framework in Frameworks */,
+				B9277D821CFD88FA005464A1 /* CoreGraphics.framework in Frameworks */,
+				B9277D801CFD88F4005464A1 /* StoreKit.framework in Frameworks */,
+				B9277D7E1CFD88D7005464A1 /* SystemConfiguration.framework in Frameworks */,
+				B9277D7C1CFD88D0005464A1 /* UIKit.framework in Frameworks */,
+				B9277D7A1CFD88C7005464A1 /* JavaScriptCore.framework in Frameworks */,
+				B9277D781CFD88BF005464A1 /* CoreText.framework in Frameworks */,
+				B9277D761CFD88B5005464A1 /* AudioToolbox.framework in Frameworks */,
+				B9277D741CFD88AE005464A1 /* CoreMedia.framework in Frameworks */,
+				B9277D721CFD88A7005464A1 /* libc++.tbd in Frameworks */,
+				B9277D701CFD889C005464A1 /* libz.tbd in Frameworks */,
+				B9277D6D1CFD8892005464A1 /* libsqlite3.0.tbd in Frameworks */,
+				B9277D6E1CFD8892005464A1 /* libsqlite3.tbd in Frameworks */,
+				B9277D611CFD8683005464A1 /* Appodeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +106,11 @@
 		B9277D361CFD8615005464A1 = {
 			isa = PBXGroup;
 			children = (
+				B9277D561CFD8683005464A1 /* Appodeal.framework */,
+				B9277D571CFD8683005464A1 /* Resources */,
 				B9277D411CFD8615005464A1 /* appodeal_tv_demo */,
 				B9277D401CFD8615005464A1 /* Products */,
+				B9277D871CFD8997005464A1 /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +125,7 @@
 		B9277D411CFD8615005464A1 /* appodeal_tv_demo */ = {
 			isa = PBXGroup;
 			children = (
-				B9277D451CFD8615005464A1 /* AppDelegate.h */,
-				B9277D461CFD8615005464A1 /* AppDelegate.m */,
-				B9277D481CFD8615005464A1 /* ViewController.h */,
-				B9277D491CFD8615005464A1 /* ViewController.m */,
-				B9277D4B1CFD8615005464A1 /* Main.storyboard */,
-				B9277D4E1CFD8615005464A1 /* Assets.xcassets */,
-				B9277D501CFD8615005464A1 /* Info.plist */,
+				B94FD9531CFDADA000FAD594 /* ViewControllers */,
 				B9277D421CFD8615005464A1 /* Supporting Files */,
 			);
 			path = appodeal_tv_demo;
@@ -71,9 +134,78 @@
 		B9277D421CFD8615005464A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B9277D451CFD8615005464A1 /* AppDelegate.h */,
+				B9277D461CFD8615005464A1 /* AppDelegate.m */,
+				B9277D4B1CFD8615005464A1 /* Main.storyboard */,
+				B9277D4E1CFD8615005464A1 /* Assets.xcassets */,
+				B9277D501CFD8615005464A1 /* Info.plist */,
 				B9277D431CFD8615005464A1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9277D571CFD8683005464A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9277D581CFD8683005464A1 /* appodeal_adbadge.png */,
+				B9277D591CFD8683005464A1 /* appodeal_adbadge@2x.png */,
+				B9277D5A1CFD8683005464A1 /* appodeal_adbadge@3x.png */,
+				B9277D5B1CFD8683005464A1 /* appodeal_close.png */,
+				B9277D5C1CFD8683005464A1 /* appodeal_daa_icon.png */,
+				B9277D5D1CFD8683005464A1 /* appodeal_mute_off.png */,
+				B9277D5E1CFD8683005464A1 /* appodeal_mute_on.png */,
+				B9277D5F1CFD8683005464A1 /* appodeal_pattern.png */,
+				B9277D601CFD8683005464A1 /* appodeal_pattern@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B9277D871CFD8997005464A1 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B9277D851CFD8909005464A1 /* AdSupport.framework */,
+				B9277D831CFD8904005464A1 /* AVFoundation.framework */,
+				B9277D811CFD88FA005464A1 /* CoreGraphics.framework */,
+				B9277D7F1CFD88F4005464A1 /* StoreKit.framework */,
+				B9277D7D1CFD88D7005464A1 /* SystemConfiguration.framework */,
+				B9277D7B1CFD88D0005464A1 /* UIKit.framework */,
+				B9277D791CFD88C7005464A1 /* JavaScriptCore.framework */,
+				B9277D771CFD88BF005464A1 /* CoreText.framework */,
+				B9277D751CFD88B5005464A1 /* AudioToolbox.framework */,
+				B9277D731CFD88AE005464A1 /* CoreMedia.framework */,
+				B9277D711CFD88A7005464A1 /* libc++.tbd */,
+				B9277D6F1CFD889C005464A1 /* libz.tbd */,
+				B9277D6B1CFD8892005464A1 /* libsqlite3.0.tbd */,
+				B9277D6C1CFD8892005464A1 /* libsqlite3.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		B94FD9531CFDADA000FAD594 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD9541CFDADA900FAD594 /* MainViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B94FD9541CFDADA900FAD594 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD9581CFDADD100FAD594 /* MainView */,
+				B94FD9501CFDAD9B00FAD594 /* MainViewController.h */,
+				B94FD9511CFDAD9B00FAD594 /* MainViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		B94FD9581CFDADD100FAD594 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				B94FD9551CFDADC800FAD594 /* MainView.h */,
+				B94FD9561CFDADC800FAD594 /* MainView.m */,
+			);
+			name = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +265,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9277D651CFD8683005464A1 /* appodeal_close.png in Resources */,
 				B9277D4F1CFD8615005464A1 /* Assets.xcassets in Resources */,
+				B9277D6A1CFD8683005464A1 /* appodeal_pattern@2x.png in Resources */,
+				B9277D691CFD8683005464A1 /* appodeal_pattern.png in Resources */,
+				B9277D681CFD8683005464A1 /* appodeal_mute_on.png in Resources */,
+				B9277D671CFD8683005464A1 /* appodeal_mute_off.png in Resources */,
+				B9277D631CFD8683005464A1 /* appodeal_adbadge@2x.png in Resources */,
 				B9277D4D1CFD8615005464A1 /* Main.storyboard in Resources */,
+				B9277D641CFD8683005464A1 /* appodeal_adbadge@3x.png in Resources */,
+				B9277D621CFD8683005464A1 /* appodeal_adbadge.png in Resources */,
+				B9277D661CFD8683005464A1 /* appodeal_daa_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9277D4A1CFD8615005464A1 /* ViewController.m in Sources */,
 				B9277D471CFD8615005464A1 /* AppDelegate.m in Sources */,
+				B94FD9571CFDADC800FAD594 /* MainView.m in Sources */,
+				B94FD9521CFDAD9B00FAD594 /* MainViewController.m in Sources */,
 				B9277D441CFD8615005464A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,10 +394,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = appodeal_tv_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dtlbox.appodeal-tv-demo";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.appletv.sandbox1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -264,10 +412,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = appodeal_tv_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dtlbox.appodeal-tv-demo";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.appletv.sandbox1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -290,6 +444,7 @@
 				B9277D551CFD8615005464A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
