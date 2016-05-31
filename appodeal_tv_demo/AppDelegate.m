@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TVMainViewController.h"
+#import "TVStartViewController.h"
+#import "TVInitViewController.h"
+
 #import <Appodeal/Appodeal.h>
 
 @interface AppDelegate ()
@@ -17,18 +21,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
     
-    {
-//        [Appodeal setTestingEnabled:YES];
-        [Appodeal setAutocache:YES types:AppodealAdTypeRewardedVideo | AppodealAdTypeSkippableVideo];
-        [Appodeal initializeWithApiKey:@"40fef17c7c4134679988edcaf8044afb0db460d9b79734bc" types:AppodealAdTypeRewardedVideo | AppodealAdTypeSkippableVideo];
-    }
-    
-    {
-        
-    }
+    [self createStartSection];
     
     return YES;
+}
+
+- (void) createStartSection {
+    TVStartViewController * startController = [TVStartViewController new];
+    TVInitViewController * initController = [TVInitViewController new];
+    
+    self.startNavigation = [[UINavigationController alloc] initWithRootViewController:initController];
+    self.window.rootViewController = self.startNavigation;
+    
+    [self.startNavigation presentViewController:startController animated:NO completion:nil];
+}
+
+- (void) initAppodealProvider:(NSArray *)provider rewardAutoCache:(BOOL)rewardAutoCache skippableAutoCache:(BOOL)skippableAutoCache testMode:(BOOL)testMode{
+    TVMainViewController * mainController = [[TVMainViewController alloc] initAppodealProvider:provider
+                                                                               rewardAutoCache:rewardAutoCache
+                                                                            skippableAutoCache:skippableAutoCache
+                                                                                      testMode:testMode];
+    
+    self.mainNavigation = [[UINavigationController alloc] initWithRootViewController:mainController];
+    self.window.rootViewController = self.mainNavigation;
 }
 
 

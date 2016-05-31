@@ -28,5 +28,12 @@
 	<array>
 		<string>arm64</string>
 	</array>
+	<key>AppodealAppKey</key>
+	<string>40fef17c7c4134679988edcaf8044afb0db460d9b79734bc</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

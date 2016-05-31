@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#define PROVIDERS                   @[@"vast",@"applovin",@"spotx"]
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic, strong) UINavigationController * startNavigation;
+@property (nonatomic, strong) UINavigationController * mainNavigation;
+
+- (void) initAppodealProvider:(NSArray *)provider rewardAutoCache:(BOOL)rewardAutoCache skippableAutoCache:(BOOL)skippableAutoCache testMode:(BOOL)testMode;
 
 
 @end
