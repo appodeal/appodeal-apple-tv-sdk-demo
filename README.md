@@ -132,7 +132,7 @@ To handle this events you need implement any of optional methods of `AppodealVid
 ```
 ### Add other frameworks that the SDK requires
 
-Appodeal TVOS SDK works on >= iOS 9.0 version and is compatible with both ARC and non-ARC projects. It depends (Project Settings -> Build Phases -> Link Binary With Libraries) on the following Apple frameworks:
+Appodeal TVOS SDK works on >= TVOS 9.0 version and is compatible with both ARC and non-ARC projects. It depends (Project Settings -> Build Phases -> Link Binary With Libraries) on the following Apple frameworks:
 
 * MobileCoreService
 * TVMLKit
