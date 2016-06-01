@@ -8,7 +8,7 @@ Sign up for an account at [http://appodeal.com/](http://appodeal.com/).
 
 # Integrate
 
-Integration instructions are available on the **[wiki](https://github.com/appodeal/appodeal-ios-demo/wiki)** or our **[site] (http://www.appodeal.com/sdk/choose_framework).**
+Integration instructions are available on the **[wiki](https://github.com/appodeal/appodeal-apple-tv-sdk-demo/wiki)** or our **[site] (http://www.appodeal.com/sdk/choose_framework).**
 
 If you encounter any issues, do not hesitate to contact our happy support team
 at [ios@appodeal.com](mailto:ios@appodeal.com).
@@ -45,7 +45,7 @@ The current version of the SDK is 1.0.0
 
 ## Integrate
 
-Integration instructions are available on the [wiki](https://github.com/appodeal/appodeal-ios-demo/wiki).
+Integration instructions are available on the [wiki](https://github.com/appodeal/appodeal-apple-tv-sdk-demo/wiki).
 
 ## Requirements
 
