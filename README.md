@@ -130,6 +130,26 @@ To handle this events you need implement any of optional methods of `AppodealVid
      NSLog(@"video ad has been finished and user should be rewarded");
 }
 ```
+### Add other frameworks that the SDK requires
+
+Appodeal TVOS SDK works on >= iOS 9.0 version and is compatible with both ARC and non-ARC projects. It depends (Project Settings -> Build Phases -> Link Binary With Libraries) on the following Apple frameworks:
+
+* MobileCoreService
+* TVMLKit
+* AdSupport
+* AVFoundation
+* CoreGraphics
+* StoreKit
+* SystemConfiguration
+* JavaScriptCore
+* CoreMedia
+* UIKit
+* CoreText
+* AudioToolbox
+* libc++.tbd
+* libsqlite3.tbd
+* libxml3.0.tbd
+* libz.tbd
 
 If you encounter any issues, do not hesitate to contact our happy support team
 at [ios@appodeal.com](mailto:ios@appodeal.com).
