@@ -1,155 +1,58 @@
-# Video Integration
-Video ads provide full-screen experiences, commonly incorporating rich media to offer a higher level of interactivity than banner and interstitial ads.
-Adding one to your app takes just a few lines of code.
+# Appodeal TVOS SDK   
 
-## Prerequisites
+![](https://img.shields.io/badge/version-v0.10.4-brightgreen.svg) [![](https://img.shields.io/badge/download-here-red.svg)](https://bit.ly/1TL0S48) [![](https://img.shields.io/badge/integration-manual-blue.svg)](https://github.com/appodeal/appodeal-ios-demo/wiki) [![Join the chat at https://gitter.im/appodeal/ios_sdk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/appodeal/ios_sdk)
 
-Before integrating video ads in your app, you’ll need to go through the steps in our [Getting Started Guide](https://github.com/appodeal/ios-sdk/wiki/Getting-Started) to create an account on Appodeal and integrate the SDK into your project.
+Thanks for taking a look at Appodeal! We take pride in having an easy-to-use, flexible monetization solution that works across multiple platforms.
 
-## Rewarded (Non-skippable) Video Integration
+Sign up for an account at [http://appodeal.com/](http://appodeal.com/).
 
->_Recommended video type for maximum revenue._
+# Integrate
 
-```objective-c
-#import "YourViewController.h"
-#import <Appodeal/Appodeal.h>
-
-@implementation YourViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-     // show video
-    [Appodeal showAd:AppodealShowStyleRewardedVideo rootViewController:self];
-}
-```
-
-## Rewarded (Non-skippable) Video Delegate Protocol
-
-`AppodealRewardedVideoDelegate ` protocol includes a variety of optional methods that you can use to be notified of events, e.g. when an video ad has successfully loaded, or when an video ad did complete with reward (amount and name can be configured via Appodeal Dashboard).
-To handle this events you need implement any of optional methods of `AppodealRewardedVideoDelegate ` protocol.
-
-```objective-c
-#import "YourViewController.h"
-#import <Appodeal/Appodeal.h>
-
-@interface YourViewController () <AppodealRewardedVideoDelegate>
-
-@end
-
-@implementation YourViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-     // set delegate
-    [Appodeal setRewardedVideoDelegate:self];
-}
-
-- (void)rewardedVideoDidLoadAd {
-     NSLog(@"video ad did load");
-}
-
-- (void)rewardedVideoDidFailToLoadAd {
-     NSLog(@"video ad failed to load");
-}
-
-- (void)rewardedVideoDidPresent {
-     NSLog(@"video ad did present");
-}
-
-- (void)rewardedVideoWillDismiss {
-     NSLog(@"video ad has been closed or dismissed");
-}
-
-- (void)rewardedVideoDidFinish:(NSUInteger)rewardAmount name:(NSString *)rewardName {
-     NSLog(@"video ad has been finished and user should be rewarded with %@ %@", @(rewardAmount), rewardName);
-}
-```
-
-
-## Skippable Video Integration
-
-```objective-c
-#import "YourViewController.h"
-#import <Appodeal/Appodeal.h>
-
-@implementation YourViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-     // show video
-    [Appodeal showAd:AppodealShowStyleSkippableVideo rootViewController:self];
-}
-```
-
-## Skippable Video Delegate Protocol
-
-`AppodealVideoDelegate` protocol includes a variety of optional methods that you can use to be notified of events, e.g. when an video ad has successfully loaded, or when an video ad did complete.
-To handle this events you need implement any of optional methods of `AppodealVideoDelegate` protocol.
-
-```objective-c
-#import "YourViewController.h"
-#import <Appodeal/Appodeal.h>
-
-@interface YourViewController () <AppodealVideoDelegate>
-
-@end
-
-@implementation YourViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-
-     // set delegate
-    [Appodeal setVideoDelegate:self];
-}
-
-- (void)videoDidLoadAd {
-     NSLog(@"video ad did load");
-}
-
-- (void)videoDidFailToLoadAd {
-     NSLog(@"video ad failed to load");
-}
-
-- (void)videoDidPresent {
-     NSLog(@"video ad did present");
-}
-
-- (void)videoWillDismiss {
-     NSLog(@"video ad has been closed or dismissed");
-}
-
-- (void)videoDidFinish {
-     NSLog(@"video ad has been finished and user should be rewarded");
-}
-```
-### Add other frameworks that the SDK requires
-
-Appodeal TVOS SDK works on >= TVOS 9.0 version and is compatible with both ARC and non-ARC projects. It depends (Project Settings -> Build Phases -> Link Binary With Libraries) on the following Apple frameworks:
-
-* MobileCoreService
-* TVMLKit
-* AdSupport
-* AVFoundation
-* CoreGraphics
-* StoreKit
-* SystemConfiguration
-* JavaScriptCore
-* CoreMedia
-* UIKit
-* CoreText
-* AudioToolbox
-* libc++.tbd
-* libsqlite3.tbd
-* libxml3.0.tbd
-* libz.tbd
+Integration instructions are available on the **[wiki](https://github.com/appodeal/appodeal-ios-demo/wiki)** or our **[site] (http://www.appodeal.com/sdk/choose_framework).**
 
 If you encounter any issues, do not hesitate to contact our happy support team
 at [ios@appodeal.com](mailto:ios@appodeal.com).
+
+# Appodeal iOS SDK Demo project
+
+## Run with Appodeal framework
+
+1.Clone project  
+2.Go to **Appodeal framework** folder   
+3.Download SDK   
+3.1Download the [latest iOS SDK version](https://bit.ly/1TL0S48) and extract Appodeal iOS SDK.   
+4.Open Demo project in Xcode, then drag and drop **Appodeal.framework** and **Resources** folder onto your project or workspace (use the "Product Navigator view") and choose *"Copy items into destination group's folder and click Finish"*.     
+
+![](http://dl.dropbox.com/s/8z80aridd4gqxub/Screen%20Shot%202015-04-23%20at%204.30.58%20PM.png)
+
+5.Change AppKey and Bundle ID (if you want to  test your app)    
+![](https://s3.amazonaws.com/appodeal-images/Screen+Shot+2015-08-18+at+13.56.01.png)
+![](https://s3.amazonaws.com/appodeal-images/Screen+Shot+2015-08-18+at+13.56.10.png)
+
+6.Run  
+
+[Back to top](https://github.com/appodeal/appodeal-apple-tv-sdk-demo#top)
+
+# Appodeal TVOS SDK
+
+## Download
+
+The Appodeal SDK is distributed as static library.
+
+- **[Appodeal SDK.zip](https://bit.ly/1TL0S48l)**
+
+The current version of the SDK is 1.0.0       
+
+## Integrate
+
+Integration instructions are available on the [wiki](https://github.com/appodeal/appodeal-ios-demo/wiki).
+
+## Requirements
+
+TVOS 9.0 and up, Xcode 7.3      
+
+1.0.0 Change Log:      
+----------------------------------   
+* 
+
+[Back to top](https://github.com/appodeal/appodeal-apple-tv-sdk-demo#top)
