@@ -11,7 +11,8 @@
 #import "TVStartViewController.h"
 #import "TVInitViewController.h"
 
-#import <Appodeal/Appodeal.h>
+//#import <Appodeal/Appodeal.h>
+
 
 @interface AppDelegate ()
 

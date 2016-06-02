@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 #import "Masonry.h"
 
-#import <Appodeal/Appodeal.h>
+#import "Appodeal.h"
 
 @interface TVMainViewController ()<AppodealVideoDelegate ,AppodealRewardedVideoDelegate, TVMainViewDelegate>
 {
@@ -135,7 +135,9 @@
 
 - (void)rewardedVideoDidLoadAd{
     NSLog(@"REWARDED VIDEO DOWNLOADED");
-    [mainView rewardEnableAutoCacheMode];
+    if (!_rewardAutoCache) {
+        [mainView rewardEnableAutoCacheMode];
+    }
 }
 
 - (void)rewardedVideoDidFailToLoadAd{
@@ -171,7 +173,9 @@
 
 - (void)videoDidFailToLoadAd{
      NSLog(@"SKIPPABLE VIDEO DID FAIL TO LOAD");
-    [Appodeal cacheAd:AppodealAdTypeSkippableVideo];
+    if (!_skippableAutoCache) {
+        [Appodeal cacheAd:AppodealAdTypeSkippableVideo];
+    }
 }
 
 - (void)videoDidPresent{

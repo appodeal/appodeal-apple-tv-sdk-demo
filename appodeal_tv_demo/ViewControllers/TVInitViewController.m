@@ -6,7 +6,7 @@
 //  Copyright © 2016 appodeal. All rights reserved.
 //
 
-#import <Appodeal/Appodeal.h>
+#import "Appodeal.h"
 #import "AppDelegate.h"
 
 #import "TVInitViewController.h"
