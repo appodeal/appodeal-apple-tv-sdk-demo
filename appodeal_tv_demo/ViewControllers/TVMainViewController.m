@@ -39,9 +39,12 @@
         _provider = provider;
         
         [Appodeal setTestingEnabled:testMode];
+        
         [self disableAppodealNetwork];
+        
         [Appodeal setAutocache:rewardAutoCache types:AppodealAdTypeRewardedVideo];
         [Appodeal setAutocache:skippableAutoCache types:AppodealAdTypeSkippableVideo];
+        
         
         [Appodeal initializeWithApiKey:[[NSBundle mainBundle] objectForInfoDictionaryKey:@"AppodealAppKey"]
                                  types:AppodealAdTypeRewardedVideo | AppodealAdTypeSkippableVideo];
@@ -75,6 +78,22 @@
 }
 
 #pragma mark --- Method
+
+- (void) userSettings{
+    
+    [Appodeal setUserId:@"1234"];
+    [Appodeal setUserVkId:@"34536"];
+    [Appodeal setUserFacebookId:@"234234"];
+    [Appodeal setUserEmail:@"sdd@mail.ru"];
+    [Appodeal setUserBirthday:[NSDate date]];
+    [Appodeal setUserAge:22];
+    [Appodeal setUserGender:AppodealUserGenderMale];
+    [Appodeal setUserOccupation:AppodealUserOccupationWork];
+    [Appodeal setUserRelationship:AppodealUserRelationshipSingle];
+    [Appodeal setUserSmokingAttitude:AppodealUserSmokingAttitudeNeutral];
+    [Appodeal setUserAlcoholAttitude:AppodealUserAlcoholAttitudeNeutral];
+    [Appodeal setUserInterests:@"interes"];
+}
 
 - (void) disableAppodealNetwork {
     NSMutableDictionary * network = [NSMutableDictionary dictionary];
@@ -127,6 +146,8 @@
 - (void)rewardedVideoDidPresent{
     [mainView rewardDisableAutoCacheMode];
     NSLog(@"REWARDED VIDEO PRESENT");
+    
+    [self userSettings];
 }
 
 - (void)rewardedVideoWillDismiss{

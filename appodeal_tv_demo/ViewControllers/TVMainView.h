@@ -24,8 +24,8 @@
 @property (nonatomic, strong) id <TVMainViewDelegate> delegateTVMainView;
 
 - (void) skippableDisableAutoCacheMode;
+- (void) skippableEnableAutoCacheMode;
 - (void) rewardDisableAutoCacheMode;
 - (void) rewardEnableAutoCacheMode;
-- (void) skippableEnableAutoCacheMode;
 
 @end

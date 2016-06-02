@@ -148,23 +148,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9277D7E1CFD88D7005464A1 /* SystemConfiguration.framework in Frameworks */,
 				B94FD9C31CFDD0B700FAD594 /* MobileCoreServices.framework in Frameworks */,
 				B94FD9C11CFDD07900FAD594 /* TVMLKit.framework in Frameworks */,
 				B9277D861CFD8909005464A1 /* AdSupport.framework in Frameworks */,
-				B94FD9B61CFDD01400FAD594 /* Appodeal.framework in Frameworks */,
 				B9277D841CFD8904005464A1 /* AVFoundation.framework in Frameworks */,
 				B9277D821CFD88FA005464A1 /* CoreGraphics.framework in Frameworks */,
 				B9277D801CFD88F4005464A1 /* StoreKit.framework in Frameworks */,
-				B9277D7C1CFD88D0005464A1 /* UIKit.framework in Frameworks */,
+				B9277D7E1CFD88D7005464A1 /* SystemConfiguration.framework in Frameworks */,
 				B9277D7A1CFD88C7005464A1 /* JavaScriptCore.framework in Frameworks */,
+				B9277D741CFD88AE005464A1 /* CoreMedia.framework in Frameworks */,
+				B9277D7C1CFD88D0005464A1 /* UIKit.framework in Frameworks */,
 				B9277D781CFD88BF005464A1 /* CoreText.framework in Frameworks */,
 				B9277D761CFD88B5005464A1 /* AudioToolbox.framework in Frameworks */,
-				B9277D741CFD88AE005464A1 /* CoreMedia.framework in Frameworks */,
 				B9277D721CFD88A7005464A1 /* libc++.tbd in Frameworks */,
-				B9277D701CFD889C005464A1 /* libz.tbd in Frameworks */,
-				B9277D6D1CFD8892005464A1 /* libsqlite3.0.tbd in Frameworks */,
 				B9277D6E1CFD8892005464A1 /* libsqlite3.tbd in Frameworks */,
+				B9277D6D1CFD8892005464A1 /* libsqlite3.0.tbd in Frameworks */,
+				B9277D701CFD889C005464A1 /* libz.tbd in Frameworks */,
+				B94FD9B61CFDD01400FAD594 /* Appodeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
