@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9161B921D06ECFD003AF067 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9161B871D06ECFD003AF067 /* Appodeal.framework */; };
+		B9161B931D06ECFD003AF067 /* appodeal_adbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B891D06ECFD003AF067 /* appodeal_adbadge.png */; };
+		B9161B941D06ECFD003AF067 /* appodeal_adbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B8A1D06ECFD003AF067 /* appodeal_adbadge@2x.png */; };
+		B9161B951D06ECFD003AF067 /* appodeal_adbadge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B8B1D06ECFD003AF067 /* appodeal_adbadge@3x.png */; };
+		B9161B961D06ECFD003AF067 /* appodeal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B8C1D06ECFD003AF067 /* appodeal_close.png */; };
+		B9161B971D06ECFD003AF067 /* appodeal_daa_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B8D1D06ECFD003AF067 /* appodeal_daa_icon.png */; };
+		B9161B981D06ECFD003AF067 /* appodeal_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B8E1D06ECFD003AF067 /* appodeal_mute_off.png */; };
+		B9161B991D06ECFD003AF067 /* appodeal_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B8F1D06ECFD003AF067 /* appodeal_mute_on.png */; };
+		B9161B9A1D06ECFD003AF067 /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B901D06ECFD003AF067 /* appodeal_pattern.png */; };
+		B9161B9B1D06ECFD003AF067 /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9161B911D06ECFD003AF067 /* appodeal_pattern@2x.png */; };
 		B9277D441CFD8615005464A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277D431CFD8615005464A1 /* main.m */; };
 		B9277D471CFD8615005464A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277D461CFD8615005464A1 /* AppDelegate.m */; };
 		B9277D4D1CFD8615005464A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9277D4B1CFD8615005464A1 /* Main.storyboard */; };
@@ -48,19 +58,19 @@
 		B94FD9A71CFDC64800FAD594 /* TVProviderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94FD9A41CFDC64800FAD594 /* TVProviderViewController.m */; };
 		B94FD9C11CFDD07900FAD594 /* TVMLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94FD9C01CFDD07900FAD594 /* TVMLKit.framework */; };
 		B94FD9C31CFDD0B700FAD594 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B94FD9C21CFDD0B700FAD594 /* MobileCoreServices.framework */; };
-		B96D8A8B1D005BB50012A869 /* appodeal_adbadge.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A821D005BB50012A869 /* appodeal_adbadge.png */; };
-		B96D8A8C1D005BB50012A869 /* appodeal_adbadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A831D005BB50012A869 /* appodeal_adbadge@2x.png */; };
-		B96D8A8D1D005BB50012A869 /* appodeal_adbadge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A841D005BB50012A869 /* appodeal_adbadge@3x.png */; };
-		B96D8A8E1D005BB50012A869 /* appodeal_close.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A851D005BB50012A869 /* appodeal_close.png */; };
-		B96D8A8F1D005BB50012A869 /* appodeal_daa_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A861D005BB50012A869 /* appodeal_daa_icon.png */; };
-		B96D8A901D005BB50012A869 /* appodeal_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A871D005BB50012A869 /* appodeal_mute_off.png */; };
-		B96D8A911D005BB50012A869 /* appodeal_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A881D005BB50012A869 /* appodeal_mute_on.png */; };
-		B96D8A921D005BB50012A869 /* appodeal_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A891D005BB50012A869 /* appodeal_pattern.png */; };
-		B96D8A931D005BB50012A869 /* appodeal_pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B96D8A8A1D005BB50012A869 /* appodeal_pattern@2x.png */; };
-		B96D8A9C1D005BC60012A869 /* Appodeal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B96D8A941D005BC60012A869 /* Appodeal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9161B871D06ECFD003AF067 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Appodeal.framework; sourceTree = "<group>"; };
+		B9161B891D06ECFD003AF067 /* appodeal_adbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_adbadge.png; sourceTree = "<group>"; };
+		B9161B8A1D06ECFD003AF067 /* appodeal_adbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@2x.png"; sourceTree = "<group>"; };
+		B9161B8B1D06ECFD003AF067 /* appodeal_adbadge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@3x.png"; sourceTree = "<group>"; };
+		B9161B8C1D06ECFD003AF067 /* appodeal_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_close.png; sourceTree = "<group>"; };
+		B9161B8D1D06ECFD003AF067 /* appodeal_daa_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_daa_icon.png; sourceTree = "<group>"; };
+		B9161B8E1D06ECFD003AF067 /* appodeal_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_mute_off.png; sourceTree = "<group>"; };
+		B9161B8F1D06ECFD003AF067 /* appodeal_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_mute_on.png; sourceTree = "<group>"; };
+		B9161B901D06ECFD003AF067 /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_pattern.png; sourceTree = "<group>"; };
+		B9161B911D06ECFD003AF067 /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_pattern@2x.png"; sourceTree = "<group>"; };
 		B9277D3F1CFD8615005464A1 /* appodeal_tv_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appodeal_tv_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9277D431CFD8615005464A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9277D451CFD8615005464A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,23 +141,6 @@
 		B94FD9A41CFDC64800FAD594 /* TVProviderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVProviderViewController.m; path = ViewControllers/TVProviderViewController.m; sourceTree = "<group>"; };
 		B94FD9C01CFDD07900FAD594 /* TVMLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVMLKit.framework; path = System/Library/Frameworks/TVMLKit.framework; sourceTree = SDKROOT; };
 		B94FD9C21CFDD0B700FAD594 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		B96D8A821D005BB50012A869 /* appodeal_adbadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_adbadge.png; sourceTree = "<group>"; };
-		B96D8A831D005BB50012A869 /* appodeal_adbadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@2x.png"; sourceTree = "<group>"; };
-		B96D8A841D005BB50012A869 /* appodeal_adbadge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_adbadge@3x.png"; sourceTree = "<group>"; };
-		B96D8A851D005BB50012A869 /* appodeal_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_close.png; sourceTree = "<group>"; };
-		B96D8A861D005BB50012A869 /* appodeal_daa_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_daa_icon.png; sourceTree = "<group>"; };
-		B96D8A871D005BB50012A869 /* appodeal_mute_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_mute_off.png; sourceTree = "<group>"; };
-		B96D8A881D005BB50012A869 /* appodeal_mute_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_mute_on.png; sourceTree = "<group>"; };
-		B96D8A891D005BB50012A869 /* appodeal_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appodeal_pattern.png; sourceTree = "<group>"; };
-		B96D8A8A1D005BB50012A869 /* appodeal_pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appodeal_pattern@2x.png"; sourceTree = "<group>"; };
-		B96D8A941D005BC60012A869 /* Appodeal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = Appodeal.a; sourceTree = "<group>"; };
-		B96D8A951D005BC60012A869 /* Appodeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appodeal.h; sourceTree = "<group>"; };
-		B96D8A961D005BC60012A869 /* AppodealConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealConstants.h; sourceTree = "<group>"; };
-		B96D8A971D005BC60012A869 /* AppodealImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealImage.h; sourceTree = "<group>"; };
-		B96D8A981D005BC60012A869 /* AppodealNetworkNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealNetworkNames.h; sourceTree = "<group>"; };
-		B96D8A991D005BC60012A869 /* AppodealRewardedVideoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealRewardedVideoDelegate.h; sourceTree = "<group>"; };
-		B96D8A9A1D005BC60012A869 /* AppodealUnitSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealUnitSizes.h; sourceTree = "<group>"; };
-		B96D8A9B1D005BC60012A869 /* AppodealVideoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppodealVideoDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +152,6 @@
 				B94FD9C11CFDD07900FAD594 /* TVMLKit.framework in Frameworks */,
 				B9277D861CFD8909005464A1 /* AdSupport.framework in Frameworks */,
 				B9277D841CFD8904005464A1 /* AVFoundation.framework in Frameworks */,
-				B96D8A9C1D005BC60012A869 /* Appodeal.a in Frameworks */,
 				B9277D821CFD88FA005464A1 /* CoreGraphics.framework in Frameworks */,
 				B9277D801CFD88F4005464A1 /* StoreKit.framework in Frameworks */,
 				B9277D7E1CFD88D7005464A1 /* SystemConfiguration.framework in Frameworks */,
@@ -169,6 +161,7 @@
 				B9277D781CFD88BF005464A1 /* CoreText.framework in Frameworks */,
 				B9277D761CFD88B5005464A1 /* AudioToolbox.framework in Frameworks */,
 				B9277D721CFD88A7005464A1 /* libc++.tbd in Frameworks */,
+				B9161B921D06ECFD003AF067 /* Appodeal.framework in Frameworks */,
 				B9277D6E1CFD8892005464A1 /* libsqlite3.tbd in Frameworks */,
 				B9277D6D1CFD8892005464A1 /* libsqlite3.0.tbd in Frameworks */,
 				B9277D701CFD889C005464A1 /* libz.tbd in Frameworks */,
@@ -178,6 +171,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9161B881D06ECFD003AF067 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9161B891D06ECFD003AF067 /* appodeal_adbadge.png */,
+				B9161B8A1D06ECFD003AF067 /* appodeal_adbadge@2x.png */,
+				B9161B8B1D06ECFD003AF067 /* appodeal_adbadge@3x.png */,
+				B9161B8C1D06ECFD003AF067 /* appodeal_close.png */,
+				B9161B8D1D06ECFD003AF067 /* appodeal_daa_icon.png */,
+				B9161B8E1D06ECFD003AF067 /* appodeal_mute_off.png */,
+				B9161B8F1D06ECFD003AF067 /* appodeal_mute_on.png */,
+				B9161B901D06ECFD003AF067 /* appodeal_pattern.png */,
+				B9161B911D06ECFD003AF067 /* appodeal_pattern@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B9277D361CFD8615005464A1 = {
 			isa = PBXGroup;
 			children = (
@@ -387,34 +396,11 @@
 		B96D8A801D005BB50012A869 /* AppodealLibHere */ = {
 			isa = PBXGroup;
 			children = (
-				B96D8A941D005BC60012A869 /* Appodeal.a */,
-				B96D8A951D005BC60012A869 /* Appodeal.h */,
-				B96D8A961D005BC60012A869 /* AppodealConstants.h */,
-				B96D8A971D005BC60012A869 /* AppodealImage.h */,
-				B96D8A981D005BC60012A869 /* AppodealNetworkNames.h */,
-				B96D8A991D005BC60012A869 /* AppodealRewardedVideoDelegate.h */,
-				B96D8A9A1D005BC60012A869 /* AppodealUnitSizes.h */,
-				B96D8A9B1D005BC60012A869 /* AppodealVideoDelegate.h */,
-				B96D8A811D005BB50012A869 /* Resources */,
+				B9161B871D06ECFD003AF067 /* Appodeal.framework */,
+				B9161B881D06ECFD003AF067 /* Resources */,
 			);
 			name = AppodealLibHere;
 			path = appodeal_tv_demo/AppodealLibHere;
-			sourceTree = "<group>";
-		};
-		B96D8A811D005BB50012A869 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B96D8A821D005BB50012A869 /* appodeal_adbadge.png */,
-				B96D8A831D005BB50012A869 /* appodeal_adbadge@2x.png */,
-				B96D8A841D005BB50012A869 /* appodeal_adbadge@3x.png */,
-				B96D8A851D005BB50012A869 /* appodeal_close.png */,
-				B96D8A861D005BB50012A869 /* appodeal_daa_icon.png */,
-				B96D8A871D005BB50012A869 /* appodeal_mute_off.png */,
-				B96D8A881D005BB50012A869 /* appodeal_mute_on.png */,
-				B96D8A891D005BB50012A869 /* appodeal_pattern.png */,
-				B96D8A8A1D005BB50012A869 /* appodeal_pattern@2x.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,17 +460,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B96D8A8E1D005BB50012A869 /* appodeal_close.png in Resources */,
+				B9161B961D06ECFD003AF067 /* appodeal_close.png in Resources */,
 				B9277D4F1CFD8615005464A1 /* Assets.xcassets in Resources */,
-				B96D8A931D005BB50012A869 /* appodeal_pattern@2x.png in Resources */,
-				B96D8A921D005BB50012A869 /* appodeal_pattern.png in Resources */,
-				B96D8A911D005BB50012A869 /* appodeal_mute_on.png in Resources */,
-				B96D8A901D005BB50012A869 /* appodeal_mute_off.png in Resources */,
-				B96D8A8C1D005BB50012A869 /* appodeal_adbadge@2x.png in Resources */,
+				B9161B9B1D06ECFD003AF067 /* appodeal_pattern@2x.png in Resources */,
+				B9161B9A1D06ECFD003AF067 /* appodeal_pattern.png in Resources */,
+				B9161B991D06ECFD003AF067 /* appodeal_mute_on.png in Resources */,
+				B9161B981D06ECFD003AF067 /* appodeal_mute_off.png in Resources */,
+				B9161B941D06ECFD003AF067 /* appodeal_adbadge@2x.png in Resources */,
 				B9277D4D1CFD8615005464A1 /* Main.storyboard in Resources */,
-				B96D8A8D1D005BB50012A869 /* appodeal_adbadge@3x.png in Resources */,
-				B96D8A8B1D005BB50012A869 /* appodeal_adbadge.png in Resources */,
-				B96D8A8F1D005BB50012A869 /* appodeal_daa_icon.png in Resources */,
+				B9161B951D06ECFD003AF067 /* appodeal_adbadge@3x.png in Resources */,
+				B9161B931D06ECFD003AF067 /* appodeal_adbadge.png in Resources */,
+				B9161B971D06ECFD003AF067 /* appodeal_daa_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +611,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/appodeal_tv_demo/AppodealLibHere",
 				);
 				INFOPLIST_FILE = appodeal_tv_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -634,9 +621,9 @@
 					"$(PROJECT_DIR)/appodeal_tv_demo/AppodealLibHere",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sabzira.pianotiles.tv;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.appletv.sandbox1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
 		};
@@ -648,6 +635,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/appodeal_tv_demo/AppodealLibHere",
 				);
 				INFOPLIST_FILE = appodeal_tv_demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -657,9 +645,9 @@
 					"$(PROJECT_DIR)/appodeal_tv_demo/AppodealLibHere",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sabzira.pianotiles.tv;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.appletv.sandbox1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};

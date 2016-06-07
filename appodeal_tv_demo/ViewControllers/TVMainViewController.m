@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 #import "Masonry.h"
 
-#import "Appodeal.h"
+#import <Appodeal/Appodeal.h>
 
 @interface TVMainViewController ()<AppodealVideoDelegate ,AppodealRewardedVideoDelegate, TVMainViewDelegate>
 {
