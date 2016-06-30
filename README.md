@@ -20,7 +20,7 @@ at [ios@appodeal.com](mailto:ios@appodeal.com).
 1.Clone project  
 2.Go to **Appodeal framework** folder   
 3.Download SDK   
-3.1Download the [latest SDK version from demo-project] and extract Appodeal iOS SDK.   
+3.1Download the [latest SDK version] (http://bit.ly/24m7Gek) and extract Appodeal iOS SDK.   
 4.Open Demo project in Xcode, then drag and drop **Appodeal.framework** and **Resources** folder onto your project or workspace (use the "Product Navigator view") and choose *"Copy items into destination group's folder and click Finish"*.     
 
 ![](http://dl.dropbox.com/s/8z80aridd4gqxub/Screen%20Shot%202015-04-23%20at%204.30.58%20PM.png)
@@ -39,7 +39,7 @@ at [ios@appodeal.com](mailto:ios@appodeal.com).
 
 The Appodeal SDK is distributed as static library.
 
-- **[Appodeal SDK.zip](https://blank)**
+- **[Appodeal SDK.zip](https://bit.ly/24m7Gek)**
 
 The current version of the SDK is 1.0.0       
 
