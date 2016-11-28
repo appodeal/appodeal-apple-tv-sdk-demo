@@ -52,7 +52,7 @@ Integration instructions are available on the [wiki](https://github.com/appodeal
 TVOS 9.0 and up, Xcode 7.3    
 
 1.1.0  Change Log:
-—————————————————
+---------------------------------- 
 * ATS Compliance Updates
 * update Applovin to 3.2.0
 * added support of Corona plugin
